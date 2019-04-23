@@ -53,15 +53,29 @@ profile.appendChild(pProfile);
 
 //10. In the div id matches section, target the first div element with the class name of firstName and change Name to Wendy.
 
-
+var changeName = document.getElementsByClassName("firstName");
+changeName[0].innerHTML = "Wendy";
 
 //11. In the div id matches section, target the first div element with the class name of otherAge and change Age to 48.
 
+var changeAge = document.getElementsByClassName("otherAge");
+changeAge[0].innerHTML = "48";
+
 //12. In the div id matches section, target the first div element with the class name of status and change Status to Single Mother.
+
+var changeStatus = document.getElementsByClassName("status");
+changeStatus[0].innerHTML = "Single Mother";
 
 //13. In the div id matches section, target the second div element with the class name of firstName and change Name to Peko Chan.
 
+var changeName2 = document.getElementsByClassName("firstName");
+changeName2[1].innerHTML = "Peko Chan";
+
 //14. In the div id matches section, target the second div element with the class name of otherAge and change Age to 68.
+
+var changeAge2 = document.getElementsByClassName("otherAge");
+changeAge2[1].innerHTML = "68";
+
 
  //Final Boss Create your own profile into the page:
  //change image to match your profile
